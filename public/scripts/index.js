@@ -29,10 +29,7 @@ fetch("/api/emojis")
 		loadingText.remove();
 		searchDiv.style.display = "block";
 	})
-	.catch(err => {
-		const loadingTextPElement = loadingText.firstElementChild;
-		loadingTextPElement.textContent = err;
-	});
+	.catch(err => loadingText.firstElementChild.textContent = err);
 
 searchBar.addEventListener("input", () => {
 	const searchBarValue = searchBar.value,
