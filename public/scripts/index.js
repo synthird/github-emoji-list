@@ -26,8 +26,8 @@ fetch("/api/emojis")
 			emojiList.appendChild(emojiDiv);
 		}
 
-		loadingText.remove();
 		searchDiv.style.display = "block";
+		loadingText.remove();
 	})
 	.catch(err => loadingText.firstElementChild.textContent = err);
 
