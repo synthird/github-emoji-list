@@ -21,7 +21,7 @@ fetch("/api/emojis")
 			emojiDiv.appendChild(nameElement);
 
 			image.src = emojis[name];
-			image.alt = name;
+			image.alt = `${name}.`;
 			emojiDiv.appendChild(image);
 
 			emojiList.appendChild(emojiDiv);
