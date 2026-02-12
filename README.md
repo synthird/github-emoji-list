@@ -6,9 +6,9 @@ This is helpful if you are searching for emojis you want to use in your README f
 
 ## Built with
 
-- [Express.js](https://expressjs.com/)
+- [Express.js](https://expressjs.com/) v5.1.0
 - [Node.js](https://nodejs.org/en)
-- [Octokit.js](https://github.com/octokit/octokit.js/)
+- [Octokit.js](https://github.com/octokit/octokit.js/) v5.0.5
 - [Vercel](https://vercel.com/)
 
 ## License
