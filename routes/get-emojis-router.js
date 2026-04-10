@@ -1,7 +1,25 @@
 import express from "express";
-import { getEmojis } from "../controllers/get-emojis-controller.js";
+import { Octokit } from "octokit";
+
+const octokit = new Octokit({
+	auth: process.env.TOKEN
+});
 
 const router = express.Router();
-router.get("/", getEmojis);
+
+router.get("/", async (_, res) => {
+	try {
+		const result = await octokit.request("GET /emojis"),
+			emojis = result.data;
+
+		res.json(emojis);
+	} catch (error) {
+		if (error.response) {
+			res.status(error.response.status).json({ message: error.response.data.message });
+		} else {
+			console.log(error);
+		}
+	}
+});
 
 export default router;
