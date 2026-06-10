@@ -12,7 +12,7 @@
   "author": "Synthird",
   "license": "AGPL-3.0-only",
   "dependencies": {
-    "express": "^5.1.0",
+    "express": "^5.2.1",
     "octokit": "^5.0.5"
   }
 }
