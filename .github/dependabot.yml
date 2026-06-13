@@ -11,3 +11,5 @@ updates:
       interval: "monthly"
     commit-message:
       prefix: "chore"
+    assignees:
+      - "Synthird"
