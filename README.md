@@ -11,6 +11,32 @@ This is helpful if you are searching for emojis you want to use in your README f
 - [Octokit.js](https://github.com/octokit/octokit.js/)
 - [Vercel](https://vercel.com/)
 
+## Running this site locally
+
+**What you need to have:**
+
+- [Node.js](https://nodejs.org/en) installed on your machine.
+- A [vercel](https://vercel.com/) account.
+
+**Steps:**
+
+1. Fork this repository.
+2. Clone the forked repository into your machine.
+3. Install dependencies.
+
+```shell
+npm install -g vercel
+npm install
+```
+
+4. Run the site locally.
+
+```shell
+vercel dev
+```
+
+5. Login to vercel if prompted.
+
 ## License
 
 This repository contains the AGPL version 3 license. You must give credit if you want to use its source code. If your project is accessed through a network, you must open source it under the same license.
