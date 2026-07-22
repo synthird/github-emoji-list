@@ -11,7 +11,7 @@ This is helpful if you are searching for emojis you want to use in your README f
 - [Octokit.js](https://github.com/octokit/octokit.js/)
 - [Vercel](https://vercel.com/)
 
-## Running this site locally
+## Running the site locally
 
 **What you need to have:**
 
