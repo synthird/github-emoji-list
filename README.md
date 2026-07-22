@@ -29,13 +29,23 @@ npm install -g vercel
 npm install
 ```
 
-4. Run the site locally.
+4. Create a GitHub personal access token. (A fine-grained one with default settings.)
+5. Copy the token.
+6. Create a ```.env``` with the following:
+
+```.env
+TOKEN=PASTE-YOUR-TOKEN-HERE
+```
+
+- Make sure the ```.env``` file is in the root folder of your cloned repository.
+
+7. Run the site locally.
 
 ```shell
 vercel dev
 ```
 
-5. Login to vercel if prompted.
+8. Login to vercel if prompted.
 
 ## License
 
