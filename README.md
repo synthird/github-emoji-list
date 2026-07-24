@@ -31,13 +31,11 @@ npm install
 
 4. Create a GitHub personal access token. (A fine-grained one with default settings.)
 5. Copy the token.
-6. Create a ```.env``` with the following:
+6. Create a ```.env``` in the root folder of your cloned repository with the following:
 
 ```.env
 TOKEN=PASTE-YOUR-TOKEN-HERE
 ```
-
-- Make sure the ```.env``` file is in the root folder of your cloned repository.
 
 7. Run the site locally.
 
