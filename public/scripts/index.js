@@ -58,10 +58,9 @@ emojiList.addEventListener("click", event => {
 		const emojiDiv = emojiTarget.parentElement,
 			notifyElement = document.createElement("p");
 
+		clipboard.writeText(emojiDiv.firstElementChild.textContent);
 		notifyElement.textContent = "Copied emoji to clipboard!";
 		emojiDiv.appendChild(notifyElement);
-
-		clipboard.writeText(emojiDiv.firstElementChild.textContent);
 		setTimeout(() => notifyElement.remove(), 1300);
 	}
 });
