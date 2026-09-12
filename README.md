@@ -33,7 +33,7 @@ TOKEN=PASTE-YOUR-TOKEN-HERE
 8. Run the site locally.
 
 ```bash
-npm start
+npm run dev
 ```
 
 ## License
